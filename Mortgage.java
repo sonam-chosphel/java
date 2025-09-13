@@ -13,7 +13,7 @@ public class Morgage{
         System.out.print("PERIOD  (YEAR):");
         int year= scan.nextInt();
 
-        double monthly_rate= (rate/100)/12;
+        double monthly_rate= (rate/100)/12; \\
 
         int months =  year*12;
 
@@ -21,4 +21,5 @@ public class Morgage{
         System.out.printf("mortgage: $%.2f ",mortgage);
 
     }
+
 }
